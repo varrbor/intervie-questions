@@ -22,7 +22,17 @@
             <li><p><a  href="https://www.codecademy.com/article/what-is-rest" target="_blank">Що таке REST?</a></p></li>
             <li><p><a  href="https://www.freecodecamp.org/news/mutability-vs-immutability-in-javascript/" target="_blank">Поясніть поняття мутабельність / іммутабельність? Які типи є мутабельними й навпаки?</a></p></li>
             <li><p><a  href="https://medium.com/@ajouamymiloud/how-to-find-and-fix-errors-quickly-as-a-programmer-d34e527c0878" target="_blank">Як шукати помилки в коді? Чи використовуєте дебагер?</a></p></li>
-            <li><p><a  href="https://en.wikipedia.org/wiki/Brendan_Eich" target="_blank">Яких відомих людей зі світу JS знаєте?</a></p></li>
+            <li><p><a  href="Tell us about the testing pyramid with examples" target="_blank">Які типи автоматизованих тестів випадала нагода писати? Які бібліотеки при цьому використовували? Яким інструментам віддаєте перевагу і чому?</a></p></li>
+            <li><p><a  href="https://www.google.com/search?q=What+types+of+automated+tests+did+you+have+the+opportunity+to+write%3F+What+libraries+were+used%3F+Which+tools+do+you+prefer+and+why%3F&sourceid=chrome&ie=UTF-8" target="_blank">Яких відомих людей зі світу JS знаєте?</a></p></li>
+            <li><p><a  href="https://www.google.com/search?q=What+are+unit+tests%3F+What+place+in+the+testing+pyramid+do+unit+tests+occupy%3F&sourceid=chrome&ie=UTF-8" target="_blank">Що таке unit-тести? Яке місце в піраміді тестування займають unit-тести?</a></p></li>
+            <li><p><a  href="https://www.google.com/search?q=What+is+code+coverage%3F+Is+100%25+code+test+coverage+mandatory%3F&sourceid=chrome&ie=UTF-8" target="_blank">Що таке code coverage? Чи обов’язкове 100% покриття тестами коду?</a></p></li>
+            <li><p><a  href="https://www.google.com/search?q=How+to+prevent+the+browser+from+giving+cache+to+an+HTTP+request%3F&sourceid=chrome&ie=UTF-8" target="_blank">Як заборонити браузеру віддавати кеш на HTTP-запит?</a></p></li>
+            <li><p><a  href="https://www.google.com/search?q=What+is+XSS+(Cross-Site+Scripting)%3F&sourceid=chrome&ie=UTF-8" target="_blank">Що таке XSS (Cross-Site Scripting)?</a></p></li>
+            <li><p><a  href="https://github.com/kayleg/yt-pubsub" target="_blank">Розкажіть про патерни Observer, Pub / Sub. Яка між ними різниця? Наведіть приклади реалізації цих патернів у відомих фреймворках / бібліотеках / браузерних API.</a></p></li>
+            <li><p><a  href="https://www.google.com/search?q=For+what+purpose+can+the+event+listener+of+the+event+fetch+self.addEventListener(%27fetch%27%2C+event+%3D%3E+%7B%7D)+be+used%3F&sourceid=chrome&ie=UTF-8" target="_blank">З якою метою може бути використаний event listener події fetch self.addEventListener(’fetch’, event => {}) ?</a></p></li>
+            <li><p><a  href="https://www.google.com/search?q=What+is+an+Event+loop+and+how+does+it+work%3F+Talk+about+micro-tasks+and+macro-tasks.&sourceid=chrome&ie=UTF-8" target="_blank">Яких відомих людей зі світу JS знаєте?</a></p></li>
+            <li><p><a  href="https://en.wikipedia.org/wiki/Brendan_Eich" target="_blank">Що таке Event loop і як він працює? Розкажіть про мікрозадачі та макрозадачі.</a></p></li>
+            
             <h3>JS Core</h3>
             <li><p><a  href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures" target="_blank">Які існують типи даних у JS?</a></p></li>
             <li><p><a  href="https://www.w3schools.com/JSREF/jsref_isarray.asp#:~:text=The%20isArray()%20method%20returns,is%20an%20array%2C%20otherwise%20false%20." target="_blank">Як перевірити, чи об’єкт є масивом?</a></p></li>
@@ -40,6 +50,101 @@
             <li><p><a  href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Expressions_and_Operators" target="_blank">Як працюють оператори присвоєння / порівняння / рядкові / арифметичні / бітові тощо?</a></p></li>
             <li><p><a  href="https://www.freecodecamp.org/news/how-to-use-javascript-collections-map-and-set/" target="_blank">Опишіть призначення і принципи роботи з колекціями Map і Set.</a></p></li>
             <li><p><a  href="https://www.javatpoint.com/shallow-copy-and-deep-copy-in-javascript#:~:text=ADVERTISEMENT-,In%20JavaScript%2C%20there%20are%20two%20ways%20to%20copy%20objects%3A%20shallow,and%20nested%20objects%20or%20arrays." target="_blank">Що означає глибока (deep) та поверхнева (shallow) копія об’єкта? Як зробити кожну з них?</a></p></li>
+            <li><p><a  href="https://www.google.com/search?q=What+are+the+data+types+in+JavaScript%3F+What+will+be+the+result+of+executing+the+code%3F+let+firstObj+%3D+%7B+name%3A+%27Hello%27+%7D%3B+let+secondObj+%3D+firstObj%3B+firstObj+%3D+%7B+name%3A+%27Bye%27+%7D%3B+console.log(secondObj.name)%3B&sourceid=chrome&ie=UTF-8" target="_blank">Які типи даних бувають у JavaScript? Який буде результат виконання коду?</a></p></li>
+            <xmp>
+                let firstObj = { name: 'Hello' };
+
+                let secondObj = firstObj;
+                
+                firstObj = { name: 'Bye' };
+                
+                console.log(secondObj.name);
+              </xmp>
+            <li><p><a  href="https://www.google.com/search?q=What+is+a+temporal+dead+zone%3F&sourceid=chrome&ie=UTF-8" target="_blank">Що таке temporal dead zone?</a></p></li>
+            <li><p><a  href="https://www.google.com/search?q=How+does+boxing+%2F+unboxing+work+in+JavaScript%3F&sourceid=chrome&ie=UTF-8" target="_blank">Як працює boxing / unboxing у JavaScript?</a></p></li>
+            <li><p><a  href="https://www.google.com/search?q=What+is+the+difference+between+the+in+operator+and+the+hasOwnProperty+method%3F&sourceid=chrome&ie=UTF-8" target="_blank">У чому різниця між оператором in і методом hasOwnProperty?</a></p></li>
+            <li><p><a  href="https://www.google.com/search?q=Describe+how+such+OOP+paradigms+as+encapsulation%2C+polymorphism%2C+abstraction+are+implemented+in+JS%3F&sourceid=chrome&ie=UTF-8" target="_blank">Опишіть, за допомогою чого в JS реалізуються такі ООП-парадигми, як інкапсуляція, поліморфізм, абстракція?</a></p></li>
+            <li><p><a  href="https://en.wikipedia.org/wiki/Brendan_Eich" target="_blank"> Що таке прототип? Як працює прототипне наслідування в JS? Поясніть роботу коду.</a></p></li>
+            <xmp>
+                function Main () {}
+                Main.prototype = { protected: true };
+
+                const obj = new Main();
+                Main.prototype = { protected: false };
+
+                console.log('Object protection: ', obj.protected); 
+              </xmp>
+            <li><p><a  href="https://betterprogramming.pub/inheritance-vs-composition-2fa0cdd2f939" target="_blank">Яка різниця між композицією та наслідуванням?</a></p></li>
+            <li><p><a  href="why should you not use constructors of type new string in javascript" target="_blank">Чому не варто використовувати конструктори типу new String?</a></p></li>
+            <li><p><a  href="https://www.google.com/search?q=Tell+us+about+the+basic+device+and+the+working+mechanism+of+the+Event+loop.&sourceid=chrome&ie=UTF-8" target="_blank">Розкажіть про базовий пристрій і механізм роботи Event loop.</a></p></li>
+            <li><p><a  href="https://fjolt.com/article/javascript-records-and-tuples" target="_blank">Що таке записи (records) і кортежі (tuples)? Чим вони відрізняються від звичайних об’єктів?</a></p></li>
+            <li><p><a  href="https://www.google.com/search?q=What+are+the+differences+in+the+behavior+of+an+ES5+constructor+function+and+an+ES2015+class%3F&sourceid=chrome&ie=UTF-8" target="_blank">Які відмінності в поведінці ES5 функції-конструктора та ES2015 класу?</a></p></li>
+            <li><p><a  href="https://www.google.com/search?q=How+to+implement+the+%22Module%22+pattern+in+js%3F&sca_esv=3a4db51264369e2d&sxsrf=ACQVn08ymc1wpKAGWF8xB5dRSmp7tHCyqg%3A1707578453230&ei=VZTHZbnKDfLOxc8PlLmMuAM&ved=0ahUKEwj5yIW5iaGEAxVyZ_EDHZQcAzcQ4dUDCBA&uact=5&oq=How+to+implement+the+%22Module%22+pattern+in+js%3F&gs_lp=Egxnd3Mtd2l6LXNlcnAiLEhvdyB0byBpbXBsZW1lbnQgdGhlICJNb2R1bGUiIHBhdHRlcm4gaW4ganM_MgUQIRigATIFECEYoAEyBRAhGKABSOUnUGlYmSNwAXgBkAEAmAGVAaAB-gSqAQM0LjK4AQPIAQD4AQHCAgoQABhHGNYEGLAD4gMEGAAgQYgGAZAGCA&sclient=gws-wiz-serp" target="_blank">Як реалізувати патерн «Модуль»?</a></p></li>
+            <li><p><a  href="https://www.google.com/search?q=Why+does+typeof+null+return+object%3F&sourceid=chrome&ie=UTF-8" target="_blank">Чому typeof null повертає object?</a></p></li>
+            <li><p><a  href="https://www.google.com/search?q=What+is+type+casting+in+JS%3F&sourceid=chrome&ie=UTF-8" target="_blank">Що таке приведення (перетворення) типів у JS?</a></p></li>
+            <li><p><a  href="https://www.google.com/search?q=What+are+explicit+and+implicit+data+type+conversions+in+JS%3F+How+types+are+converted+in+the+following+examples%3A+%7B%7D%2B%5B%5D%2B%7B%7D%2B%5B1%5D+!!%22false%22+%3D%3D+!!%22true%22+%5B%27x%27%5D+%3D%3D+%27x%27&sourceid=chrome&ie=UTF-8" target="_blank">Яких відомих людей зі світу JS знаєте?</a></p></li>
+            <li><p><a  href="https://en.wikipedia.org/wiki/Brendan_Eich" target="_blank">Що таке явне і неявне приведення (перетворення) типів даних у JS? Як відбувається перетворення типів у таких прикладах:</a></p></li>
+            <xmp>
+                {}+[]+{}+[1]
+                !!"false" == !!"true"
+                ['x'] == 'x'
+              </xmp>
+            <li><p><a  href="https://www.google.com/search?q=what+is+garbage+collector+in+js+and+how+it+works&sca_esv=3a4db51264369e2d&sxsrf=ACQVn0_Q_Uk9xqnZLO-tsUsowcP42LZgSw%3A1707578916847&ei=JJbHZeumM93gxc8P95S-CA&oq=What+is+Garbage+Collector+in+js+and%3F&gs_lp=Egxnd3Mtd2l6LXNlcnAiJFdoYXQgaXMgR2FyYmFnZSBDb2xsZWN0b3IgaW4ganMgYW5kPyoCCAEyBRAhGKABMgUQIRigAUiDQlDZBliKM3ABeAGQAQGYAaADoAGhCqoBBzUuNC40LTG4AQHIAQD4AQHCAgcQIxiwAxgnwgIKEAAYRxjWBBiwA8ICBBAjGCfCAgUQABiABMICBhAAGAcYHsICCBAAGAcYHhgPwgIIEAAYCBgHGB7iAwQYACBBiAYBkAYJ&sclient=gws-wiz-serp" target="_blank">Що таке Garbage Collector?</a></p></li>
+            <li><p><a  href="https://www.google.com/search?q=Describe+the+basic+principles+of+the+%22garbage+collector%22+in+JS+engines.&sourceid=chrome&ie=UTF-8" target="_blank">Опишіть основні принципи роботи «збирача сміття» у JS-рушіях (engines).</a></p></li>
+            <li><p><a  href="https://www.google.com/search?q=Describe+the+purpose+and+principles+of+working+with+WeakMap+and+WeakSet+collections%3F+How+are+they+different+from+Map+and+Set+collections+respectively%3F&sourceid=chrome&ie=UTF-8" target="_blank">Опишіть призначення і принципи роботи з колекціями WeakMap і WeakSet? Чим вони відрізняються від колекцій Map і Set відповідно?</a></p></li>
+            <li><p><a  href="https://www.google.com/search?q=What+is+the+difference+between+Observable+and+Promise%3F&sourceid=chrome&ie=UTF-8" target="_blank">Чим відрізняється Observable від Promise?</a></p></li>
+            <li><p><a  href="https://www.google.com/search?q=What+is+a+Promise%3F+Name+the+order+of+execution+of+then+and+catch+in+the+chain.+Promise.+resolve(10)+.then(e+%3D%3E+console.log(e))+%2F%2F+%3F%3F+.then(e+%3D%3E+Promise.resolve(e))+.then(console.log)+%2F%2F+%3F%3F+.then(e+%3D%3E+%7B+if+(!e)+%7B+throw+%27Error+caught%27%3B+%7D+%7D)+.catch(e+%3D%3E+%7B+console.log(e)%3B+%2F%2F+%3F%3F+return+new+Error(%27New+error%27)%3B+%7D)+.then(e+%3D%3E+%7B+console.log(e.message)%3B+%2F%2F+%3F%3F+%7D)+.catch(e+%3D%3E+%7B+console.log(e.message)%3B+%2F%2F+%3F%3F+%7D)%3B&sourceid=chrome&ie=UTF-8" target="_blank">Що таке Promise? Назвіть порядок виконання then і catch у ланцюжку.</a></p></li>
+            <xmp>
+                Promise.resolve(10)
+                .then(e => console.log(e)) // ??
+                .then(e => Promise.resolve(e))
+                .then(console.log) // ??
+                .then(e => {
+                    if (!e) {
+                    throw 'Error caught';
+                    }
+                })
+                .catch(e => {
+                    console.log(e); // ??
+                    return new Error('New error');
+                })
+                .then(e => {
+                    console.log(e.message); // ??
+                })
+                .catch(e => {
+                    console.log(e.message); // ??
+                });
+              </xmp>
+            <li><p><a  href="https://www.google.com/search?q=Tell+about+sequential+and+parallel+execution+of+asynchronous+functions.+What+is+the+difference+between+Promise.all()+and+Promise.allSettled()%3F&sourceid=chrome&ie=UTF-8" target="_blank">Розкажіть про послідовне і паралельне виконання асинхронних функцій. У чому різниця між Promise.all () і Promise.allSettled ()?</a></p></li>
+            <li><p><a  href="https://www.google.com/search?q=What+are+object+property+descriptors%3F+Tell+about+their+practical+application.&sourceid=chrome&ie=UTF-8" target="_blank">Що таке дескриптори властивостей об’єктів? Розкажіть про їхнє практичне застосування.</a></p></li>
+            <li><p><a  href="https://www.google.com/search?q=Name+several+ways+to+create+an+immutable+object+in+JavaScript.&sourceid=chrome&ie=UTF-8" target="_blank">Назвіть кілька способів створення незмінного об’єкта в JavaScript.</a></p></li>
+            <li><p><a  href="https://www.google.com/search?q=How+to+create+a+property+in+an+object+that+cannot+be+changed%3F&sourceid=chrome&ie=UTF-8" target="_blank">Як створити властивість в об’єкта, яку не можна буде змінити?</a></p></li>
+            <li><p><a  href="https://www.google.com/search?q=Why+do+you+need+a+Proxy+constructor%3F+Give+an+example+of+use.&sourceid=chrome&ie=UTF-8" target="_blank">Навіщо потрібен конструктор Proxy? Наведіть приклад використання.</a></p></li>
+            <li><p><a  href="https://www.google.com/search?q=What+is+an+ArrayBuffer%3F+What+is+the+difference+between+Uint32Array+and+Float32Array%3F+What+is+the+result+of+executing+the+code%3F+const+uint32Array+%3D+new+Uint32Array()%3B+Array.isArray(uint32Array)%3B&sourceid=chrome&ie=UTF-8" target="_blank">Що таке ArrayBuffer? У чому різниця між Uint32Array і Float32Array? Який результат виконання коду?</a></p></li>
+            <xmp>
+                const uint32Array = new Uint32Array();
+                Array.isArray(uint32Array);
+              </xmp>
+            <li><p><a  href="https://en.wikipedia.org/wiki/Brendan_Eich" target="_blank">Яким буде результат порівняння?</a></p></li>
+            <xmp>
+                const url = “HTTPs://xyz.com/path<to>page.html”;
+                console.log(encodeURI(url) == encodeURIComponent(url)); 
+              </xmp>
+            <li><p><a  href="https://www.google.com/search?q=Tell+about+generators+and+iterators+in+js&sca_esv=82020f27733c768a&sxsrf=ACQVn0-e32hpghIVBnh_l6_RgIsQCRxjsg%3A1707581142599&ei=1p7HZZmRJICGxc8PzoOC8Aw&ved=0ahUKEwiZ1Le7k6GEAxUAQ_EDHc6BAM4Q4dUDCBA&uact=5&oq=Tell+about+generators+and+iterators+in+js&gs_lp=Egxnd3Mtd2l6LXNlcnAiKVRlbGwgYWJvdXQgZ2VuZXJhdG9ycyBhbmQgaXRlcmF0b3JzIGluIGpzMgYQABgWGB4yCxAAGIAEGIoFGIYDMgsQABiABBiKBRiGAzILEAAYgAQYigUYhgNIiiRQXliYIHABeAGQAQCYAeoCoAGFB6oBBzMuMi4wLjG4AQPIAQD4AQHCAgoQABhHGNYEGLADwgIEECMYJ8ICBRAhGKABwgIEECEYFeIDBBgAIEGIBgGQBgg&sclient=gws-wiz-serp" target="_blank">Розкажіть про генератори та ітератори.</a></p></li>
+            <li><p><a  href="https://www.google.com/search?q=Explain+what+the+following+code+does%3A+function+*+fn(num)+%7B+for+(let+i+%3D+0%3B+i+%3C+num%3B+i+%2B%3D+1)+%7B+yield+console.log(i)%3B+%7D+%7D+const+loop+%3D+fn(5)%3B+loop.next()%3B+loop.next()%3B&sourceid=chrome&ie=UTF-8" target="_blank">Поясніть, що робить наведений код:</a></p></li>
+            <xmp>
+                function * fn(num) {
+                    for (let i = 0; i < num; i += 1) {
+                      yield console.log(i);
+                    }
+                  }
+                  const loop = fn(5);
+                  loop.next();
+                  loop.next();
+              </xmp>
+            <li><p><a  href="https://www.google.com/search?q=Explain+the+Symbol+data+type+and+its+practical+application+in+js.+How+to+convert+a+number+from+a+10-bit+system+to+a+16%282%2C8%29-bit+number+system%3F&sca_esv=82020f27733c768a&sxsrf=ACQVn0_44_zK4KMoDR5uCzqLzHG2SZzKTg%3A1707581380078&ei=xJ_HZbWnBLbixc8P9fqysAU&ved=0ahUKEwi1mdaslKGEAxU2cfEDHXW9DFYQ4dUDCBA&uact=5&oq=Explain+the+Symbol+data+type+and+its+practical+application+in+js.+How+to+convert+a+number+from+a+10-bit+system+to+a+16%282%2C8%29-bit+number+system%3F&gs_lp=Egxnd3Mtd2l6LXNlcnAijgFFeHBsYWluIHRoZSBTeW1ib2wgZGF0YSB0eXBlIGFuZCBpdHMgcHJhY3RpY2FsIGFwcGxpY2F0aW9uIGluIGpzLiBIb3cgdG8gY29udmVydCBhIG51bWJlciBmcm9tIGEgMTAtYml0IHN5c3RlbSB0byBhIDE2KDIsOCktYml0IG51bWJlciBzeXN0ZW0_SABQAFgAcAB4AZABAJgBAKABAKoBALgBA8gBAPgBAeIDBBgAIEE&sclient=gws-wiz-serp" target="_blank">Розкажіть про тип даних Symbol і його практичне застосування. Як перевести число з 10-розрядної системи в 16(2,8)-розрядну систему числення?</a></p></li>
+            <li><p><a  href="https://en.wikipedia.org/wiki/Brendan_Eich" target="_blank">Яких відомих людей зі світу JS знаєте?</a></p></li>
+
             <h3>Функції:</h3>
             <li><p><a  href="https://developer.mozilla.org/en-US/docs/web/JavaScript/Reference/Operators/function" target="_blank">Яка різниця між декларацією функції (function declaration) та функціональним виразом (function expression)?</a></p></li>
             <li><p><a  href="https://www.geeksforgeeks.org/javascript-anonymous-functions/" target="_blank">Що таке анонімна функція?</a></p></li>
@@ -66,6 +171,24 @@
             <li><p><a  href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/this" target="_blank">Що означає ключове слово this?</a></p></li>
             <li><p><a  href="https://andrei1700.medium.com/execution-context-and-its-loss-and-how-to-fix-it-43b5fa7e9b8a" target="_blank">Що таке втрата контексту, коли відбувається і як їй запобігти?</a></p></li>
             <li><p><a  href="https://www.linkedin.com/pulse/what-difference-between-call-apply-bind-muhammad-rizwan/" target="_blank">Методи функцій bind / call / apply — навіщо і в чому різниця?</a></p></li>
+            <li><p><a  href="https://www.google.com/search?q=Explain+what+currying+means+in+js.+Give+an+example+of+use+in+practice.&sca_esv=82020f27733c768a&sxsrf=ACQVn09Xs4UTHrmHVL_Dkpj6oNI8pLYiCw%3A1707581654055&ei=1qDHZZr0AqCqxc8Pr7mNyAg&ved=0ahUKEwiat6ivlaGEAxUgVfEDHa9cA4kQ4dUDCBA&uact=5&oq=Explain+what+currying+means+in+js.+Give+an+example+of+use+in+practice.&gs_lp=Egxnd3Mtd2l6LXNlcnAiRkV4cGxhaW4gd2hhdCBjdXJyeWluZyBtZWFucyBpbiBqcy4gR2l2ZSBhbiBleGFtcGxlIG9mIHVzZSBpbiBwcmFjdGljZS5IshZQ5ARYqhJwAXgBkAEAmAF2oAH5A6oBAzIuM7gBA8gBAPgBAcICChAAGEcY1gQYsAPiAwQYACBBiAYBkAYI&sclient=gws-wiz-serp" target="_blank">Поясніть, що означає currying. Наведіть приклад використання на практиці.</a></p></li>
+            <li><p><a  href="https://www.google.com/search?q=Give+an+example+of+a+function+with+memoization.+When+should+this+technique+be+used%3F&sourceid=chrome&ie=UTF-8" target="_blank">Наведіть приклад функції з мемоізацією. Коли варто застосовувати цю техніку?</a></p></li>
+            <li><p><a  href="https://www.google.com/search?q=What+is+function+chaining+in+js%3F+Write+an+example+using+this+approach.&sca_esv=1dc58d8ee0f56796&sxsrf=ACQVn08aIrih-vZZosZK1IqTTWvKcrsd6A%3A1707583246360&ei=DqfHZdSwFefBxc8PtLWTyAo&ved=0ahUKEwjU78qmm6GEAxXnYPEDHbTaBKkQ4dUDCBA&uact=5&oq=What+is+function+chaining+in+js%3F+Write+an+example+using+this+approach.&gs_lp=Egxnd3Mtd2l6LXNlcnAiRldoYXQgaXMgZnVuY3Rpb24gY2hhaW5pbmcgaW4ganM_IFdyaXRlIGFuIGV4YW1wbGUgdXNpbmcgdGhpcyBhcHByb2FjaC5IzRxQAFjHGXAAeAGQAQGYAb0CoAHvBaoBBzMuMi4wLjG4AQPIAQD4AQHCAgQQIxgn4gMEGAAgQQ&sclient=gws-wiz-serp" target="_blank">Що таке чейнінг функцій? Напишіть приклад з використанням цього підходу.</a></p></li>
+            <li><p><a  href="https://en.wikipedia.org/wiki/Brendan_Eich" target="_blank">У чому різниця між function і arrow function? Яким буде результат виконання коду?</a></p></li>
+            <xmp>
+                const pluckDeep = key => obj => key.split('.').reduce((accum, key) => accum[key], obj)
+
+                const compose = (...fns) => res => fns.reduce((accum, next) => next(accum), res)
+                
+                const unfold = (f, seed) => {
+                  const go = (f, seed, acc) => {
+                    const res = f(seed)
+                    return res ? go(f, res[1], acc.concat([res[0]])) : acc
+                  }
+                  return go(f, seed, [])
+                }
+              </xmp>
+
             <h3>Front-end</h3>
             <li> <p><a  href="https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction" target="_blank">Що таке DOM?</a></p></li>
             <li><p><a  href="https://stackoverflow.com/questions/10808109/script-tag-async-defer" target="_blank">Порівняйте атрибути підключення скрипту async і defer в HTML-документі.</a></p></li>
@@ -78,6 +201,21 @@
             <li><p><a  href="https://developer.mozilla.org/en-US/docs/Web/CSS/Containing_block" target="_blank">Як отримати висоту блоку? Його положення щодо меж документа?</a></p></li>
             <li> <p><a  href="https://www.freecodecamp.org/news/an-intro-to-webpack-what-it-is-and-how-to-use-it-8304ecdc3c60/" target="_blank">Що таке webpack?</a></p></li>
             <li><p><a  href="https://stackoverflow.com/questions/48151128/difference-between-production-and-development-build-in-reactjs" target="_blank">Чим відрізняється dev-збірка від prod?</a></p></li>
+            <li><p><a  href="https://www.google.com/search?q=What+is+the+fundamental+difference+between+mouseleave+and+mouseout+events%3F&sourceid=chrome&ie=UTF-8" target="_blank">У чому принципова різниця між подіями mouseleave і mouseout?</a></p></li>
+            <li><p><a  href="https://www.google.com/search?q=In+what+order+are+user-defined+events+processed+in+the+DOM+(click%2C+mouseover%2C+etc.)%3F+FIFO+or+LIFO%3F&sourceid=chrome&ie=UTF-8" target="_blank">У якому порядку обробляються призначені для користувача події в DOM (click, mouseover тощо)? FIFO чи LIFO?</a></p></li>
+            <li><p><a  href="https://www.google.com/search?q=What+are+Event+bubbling+and+Event+capturing%3F&sourceid=chrome&ie=UTF-8" target="_blank">Що таке Event bubbling та Event capturing?</a></p></li>
+            <li><p><a  href="https://www.google.com/search?q=Compare+the+event+object%27s+stopPropagation+and+stopImmediateProparation+methods.&sourceid=chrome&ie=UTF-8" target="_blank">Порівняйте методи об’єкта event stopPropagation та stopImmediateProparation.</a></p></li>
+            <li><p><a  href="https://www.google.com/search?q=What+are+the+approaches+to+optimizing+the+performance+of+a+web+page%3F&sourceid=chrome&ie=UTF-8" target="_blank">Які є підходи оптимізації продуктивності вебсторінки?</a></p></li>
+            <li><p><a  href="https://www.google.com/search?q=How+is+the+same-origin+policy+mechanism+implemented+in+the+browser%3F+What+browser+APIs+does+it+cover%3F&sourceid=chrome&ie=UTF-8" target="_blank">Як реалізований механізм same-origin policy в браузері? На які браузерні API він поширюється?</a></p></li>
+            <li><p><a  href="https://www.google.com/search?q=Name+the+ways+of+storing+data+in+the+browser.+Compare+them.&sourceid=chrome&ie=UTF-8" target="_blank">Назвіть способи зберігання даних у браузері. Порівняйте їх.</a></p></li>
+            <li><p><a  href="https://www.google.com/search?q=Web+workers.+Describe+the+features+of+data+transfer+between+workers+and+the+main+thread%2C+between+split+workers.&sourceid=chrome&ie=UTF-8" target="_blank">Web worker’и. Опишіть особливості передачі даних між worker’ами та основним потоком, між розділеними worker’ами.</a></p></li>
+            <li><p><a  href="https://www.google.com/search?q=What+are+Transferable+objects%3F&sourceid=chrome&ie=UTF-8" target="_blank">Що таке Transferable-об’єкти?</a></p></li>
+            <li><p><a  href="https://www.google.com/search?q=Tell+us+about+ways+to+optimize+the+execution+of+resource-intensive+JS+operations+to+improve+the+performance+of+rendering+content+on+the+page.&sourceid=chrome&ie=UTF-8" target="_blank">Розкажіть про способи оптимізації виконання ресурсомістких операцій JS для поліпшення продуктивності рендерингу контенту на сторінці.</a></p></li>
+            <li><p><a  href="https://www.google.com/search?q=Why+does+ResizeObserver+call+resize+events+before+the+element+is+rendered+and+not+after%3F&sourceid=chrome&ie=UTF-8" target="_blank">Чому ResizeObserver викликає події зміни розміру до відтворення елемента, а не після?</a></p></li>
+            <li><p><a  href="https://www.google.com/search?q=Tell+us%2C+how+do+you+understand+Web+Accessibility%3F&sourceid=chrome&ie=UTF-8" target="_blank">Розкажіть, як ви розумієте Web Accessibility?</a></p></li>
+            <li><p><a  href="https://www.google.com/search?q=Describe+the+algorithm+for+creating+a+function+that+ensures+reading+the+contents+of+a+.txt+file+when+dragging+it+from+the+file+system+to+the+browser+window.&sourceid=chrome&ie=UTF-8" target="_blank">Опишіть алгоритм створення функціоналу, що забезпечує читання вмісту .txt-файлу при перетягуванні його з файлової системи у вікно браузера.</a></p></li>
+            <li><p><a  href="https://www.google.com/search?q=What+is+Virtual+DOM%3F&sourceid=chrome&ie=UTF-8" target="_blank">Що таке Virtual DOM?</a></p></li>
+            <li><p><a  href="https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model" target="_blank">Що таке блокова модель CSS?</a></p></li>
             <h3>Верстка</h3>
             <li><p><a  href="https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model" target="_blank">Що таке блокова модель CSS?</a></p></li>
             <li> <p><a  href="https://www.freecodecamp.org/news/how-to-center-anything-with-css-align-a-div-text-and-more/" target="_blank">Які способи центрування блокового контенту по горизонталі та вертикалі знаєте?</a></p></li>
@@ -116,27 +254,7 @@
             <li><p><a  href="https://www.google.com/search?q=Write+a+deep+clone+for+the+object.&sourceid=chrome&ie=UTF-8" target="_blank">Напишіть deep clone для об’єкта.</a></p></li>
             <li><p><a  href="https://www.google.com/search?q=name+different+ways+to+swap+the+values+of+two+variables+in+javascript.&sca_esv=c61a3541004a5e3a&sxsrf=ACQVn08b_r90ZuRlhbGTHyWNAf_dWITF8A%3A1707568099543&ei=42vHZePdIJKBxc8PwdSF2Ac&oq=Name+different+ways+to+swap+the+values+of+two+variables+in+javascr.&gs_lp=Egxnd3Mtd2l6LXNlcnAiQ05hbWUgZGlmZmVyZW50IHdheXMgdG8gc3dhcCB0aGUgdmFsdWVzIG9mIHR3byB2YXJpYWJsZXMgaW4gamF2YXNjci4qAggAMgYQIRgKGApIiTdQhQ9Y-SxwAngBkAEAmAGnAaAB9wiqAQM3LjS4AQHIAQD4AQHCAgoQABhHGNYEGLADwgIIECEYoAEYwwTiAwQYACBBiAYBkAYI&sclient=gws-wiz-serp" target="_blank">Назвіть різні способи, як поміняти місцями значення двох змінних.</a></p></li>
             <li><p><a  href="https://www.freecodecamp.org/news/css-preprocessors/" target="_blank">Що таке CSS-препроцесори? З якими працювали? Що нового вони приносять у стандартний CSS?</a></p></li>
-            <li><p><a  href="https://www.freecodecamp.org/news/css-preprocessors/" target="_blank">Що таке CSS-препроцесори? З якими працювали? Що нового вони приносять у стандартний CSS?</a></p></li>
-            <li><p><a  href="https://www.freecodecamp.org/news/css-preprocessors/" target="_blank">Що таке CSS-препроцесори? З якими працювали? Що нового вони приносять у стандартний CSS?</a></p></li>
-            <li><p><a  href="https://www.freecodecamp.org/news/css-preprocessors/" target="_blank">Що таке CSS-препроцесори? З якими працювали? Що нового вони приносять у стандартний CSS?</a></p></li>
-            <li><p><a  href="https://www.freecodecamp.org/news/css-preprocessors/" target="_blank">Що таке CSS-препроцесори? З якими працювали? Що нового вони приносять у стандартний CSS?</a></p></li>
-            <li><p><a  href="https://www.freecodecamp.org/news/css-preprocessors/" target="_blank">Що таке CSS-препроцесори? З якими працювали? Що нового вони приносять у стандартний CSS?</a></p></li>
-            <li><p><a  href="https://www.freecodecamp.org/news/css-preprocessors/" target="_blank">Що таке CSS-препроцесори? З якими працювали? Що нового вони приносять у стандартний CSS?</a></p></li>
-            <li><p><a  href="https://www.freecodecamp.org/news/css-preprocessors/" target="_blank">Що таке CSS-препроцесори? З якими працювали? Що нового вони приносять у стандартний CSS?</a></p></li>
-            <li><p><a  href="https://www.freecodecamp.org/news/css-preprocessors/" target="_blank">Що таке CSS-препроцесори? З якими працювали? Що нового вони приносять у стандартний CSS?</a></p></li>
-            <li><p><a  href="https://www.freecodecamp.org/news/css-preprocessors/" target="_blank">Що таке CSS-препроцесори? З якими працювали? Що нового вони приносять у стандартний CSS?</a></p></li>
-            <li><p><a  href="https://www.freecodecamp.org/news/css-preprocessors/" target="_blank">Що таке CSS-препроцесори? З якими працювали? Що нового вони приносять у стандартний CSS?</a></p></li>
-            <li><p><a  href="https://www.freecodecamp.org/news/css-preprocessors/" target="_blank">Що таке CSS-препроцесори? З якими працювали? Що нового вони приносять у стандартний CSS?</a></p></li>
-            <li><p><a  href="https://www.freecodecamp.org/news/css-preprocessors/" target="_blank">Що таке CSS-препроцесори? З якими працювали? Що нового вони приносять у стандартний CSS?</a></p></li>
-            <li><p><a  href="https://www.freecodecamp.org/news/css-preprocessors/" target="_blank">Що таке CSS-препроцесори? З якими працювали? Що нового вони приносять у стандартний CSS?</a></p></li>
-            <li><p><a  href="https://www.freecodecamp.org/news/css-preprocessors/" target="_blank">Що таке CSS-препроцесори? З якими працювали? Що нового вони приносять у стандартний CSS?</a></p></li>
-            <li><p><a  href="https://www.freecodecamp.org/news/css-preprocessors/" target="_blank">Що таке CSS-препроцесори? З якими працювали? Що нового вони приносять у стандартний CSS?</a></p></li>
-            <li><p><a  href="https://www.freecodecamp.org/news/css-preprocessors/" target="_blank">Що таке CSS-препроцесори? З якими працювали? Що нового вони приносять у стандартний CSS?</a></p></li>
-            <li><p><a  href="https://www.freecodecamp.org/news/css-preprocessors/" target="_blank">Що таке CSS-препроцесори? З якими працювали? Що нового вони приносять у стандартний CSS?</a></p></li>
-            <li><p><a  href="https://www.freecodecamp.org/news/css-preprocessors/" target="_blank">Що таке CSS-препроцесори? З якими працювали? Що нового вони приносять у стандартний CSS?</a></p></li>
-            <li><p><a  href="https://www.freecodecamp.org/news/css-preprocessors/" target="_blank">Що таке CSS-препроцесори? З якими працювали? Що нового вони приносять у стандартний CSS?</a></p></li>
-            <li><p><a  href="https://www.freecodecamp.org/news/css-preprocessors/" target="_blank">Що таке CSS-препроцесори? З якими працювали? Що нового вони приносять у стандартний CSS?</a></p></li>
-            <li><p><a  href="https://www.freecodecamp.org/news/css-preprocessors/" target="_blank">Що таке CSS-препроцесори? З якими працювали? Що нового вони приносять у стандартний CSS?</a></p></li>
+            
 
           </ol>   
     </div>
